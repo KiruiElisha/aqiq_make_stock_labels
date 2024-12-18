@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-15 20:51:31.654741",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "packing_box_qty",
+  "qty",
+  "column_break_afgx",
+  "rate",
+  "case_no",
+  "description",
+  "sheets_in_box"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "packing_box_qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Box Qty",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "case_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Case No"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "columns": 1,
+   "fieldname": "sheets_in_box",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Sheets in Box",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_afgx",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-18 10:07:01.166547",
+ "modified_by": "Administrator",
+ "module": "AQIQ Make Stock Labels",
+ "name": "Purchase Stock Label Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

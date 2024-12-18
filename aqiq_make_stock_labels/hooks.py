@@ -227,3 +227,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+doctype_js = {
+    "Purchase Receipt": "public/js/purchase_receipt.js"
+}
